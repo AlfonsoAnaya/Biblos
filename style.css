@@ -185,14 +185,14 @@ body {
 /* = = =  HOME  = = = */
 
 .title {
-    padding-top: 3em;
+    padding-top: .5em;
+    border: blue solid;
 }
 
 .tagline {
     font-family: var(--font-title);
-    font-size: 1.75em;
-    max-width: 55%;
-    min-width: 570px;
+    font-size: 1.5em;
+    width: 90%;
     text-align: center;
     padding-bottom: 6.5em;
 }
@@ -211,8 +211,33 @@ body {
     gap: 0rem;
     background-image: url("img/img_home.jpg");
     background-size: cover;
-    background-position-y: -7em;
-    background-position-x: right;
+    background-position-y: center;
+    background-position-x: -12em;
+}
+
+@media (min-width: 900px) {
+    .title {
+        padding-top: 3em;
+        border: blue solid;
+    }
+    .tagline {
+        max-width: 55%;
+        min-width: 570px;
+        font-size: 1.75em;
+        padding-bottom: 6.5em;
+    }
+    .home {
+        height: 96vh;
+        min-height: 650px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        gap: 0rem;
+        background-size: cover;
+        background-position-y: -7em;
+        background-position-x: right;
+    }
 }
 
 .scroll {
