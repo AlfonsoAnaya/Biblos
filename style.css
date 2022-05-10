@@ -159,6 +159,11 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    opacity: .88;
+}
+
+.header-sticky:hover {
+    opacity: 1;
 }
 
 .nav-element {
