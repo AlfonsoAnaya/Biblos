@@ -1,32 +1,41 @@
 <!DOCTYPE html>
 <hmtl>
+
     <head>
         <title>Biblos Editorial Services</title>
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,600;1,800&family=Poiret+One&family=Rubik:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,600;1,800&display=swap" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link
+            href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,600;1,800&family=Poiret+One&family=Rubik:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,600;1,800&display=swap"
+            rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 
     <body>
         <div class="main-container">
+            <header class="header-sticky">
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <nav class="navigation">
+                    <h3 class="nav-element nav__link"><a href=#home class="link-nav">Home</a></h3>
+                    <h3 class="nav-element nav__link"><a href=#about class="link-nav">About</a></h3>
+                    <h3 class="nav-element nav__link"><a href=#services class="link-nav">Services</a></h3>
+                    <h3 class="nav-element nav__link"><a href=#projects class="link-nav">Projects</a></h3>
+                    <h3 class="nav-element nav__link"><a href=#ourteam class="link-nav">Our Team</a></h3>
+                    <h3 class="nav-element nav__link"><a href=#contact class="link-nav">Contact</a></h3>
+                </nav>
+            </header>
 
-            <nav class="header-sticky">
-                <h3 class="nav-element"><a href=#home class="link-nav">Home</a></h3>
-                <h3 class="nav-element"><a href=#about class="link-nav">About</a></h3>
-                <h3 class="nav-element"><a href=#services class="link-nav">Services</a></h3>
-                <h3 class="nav-element"><a href=#projects class="link-nav">Projects</a></h3>
-                <h3 class="nav-element"><a href=#ourteam class="link-nav">Our Team</a></h3>
-                <h3 class="nav-element"><a href=#contact class="link-nav">Contact</a></h3>
-            </nav>
 
             <section id="home" class="section-container home background-light">
                 <div class="title">
                     <h1>Biblos</h1>
                     <h2 class="subtitle">Editorial Services</h2>
                 </div>
-                <p class="tagline">We provide high-quality <span class="accent">editorial services</span> from the conception of text to the finished product</p>
+                <p class="tagline">High-quality <span class="accent">editorial services</span> from
+                    conception of text to the finished product</p>
                 <button class="btn-dark btn-quote">Request a quote</button>
                 <div class="scroll">
                     <span>•</span>
@@ -38,14 +47,18 @@
             <section id="about" class="section-container background-dark">
                 <div class="about-intro">
                     <h5 class="section-title accent-light about-title1">Who are we</h5>
-                    <p class="about-para1">We are a team of expert in editorial services. We have a passion for clear communication and 
+                    <p class="about-para1">We are a team of expert in editorial services. We have a passion for clear
+                        communication and
                         flawless presentation.
                     </p>
                     <h5 class="section-title accent-light about-title2">Our mission</h5>
-                    <p class="about-para2">Duis volutpat lacinia justo vitae aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum 
-                        dolor sit amet, consectetur adipiscing elit.  Erat augue hendrerit leo, non facilisis felis nunc nec nisl. Vestibulum 
-                        maximus libero felis, quis commodo quam volutpat a. Nullam a enim metus. Integer ac euismod urna, a tincidunt augue. 
-                        Vivamus molestie finibus ante. Integer ac euismod urna, a tincidunt augue. 
+                    <p class="about-para2">Duis volutpat lacinia justo vitae aliquam. Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit. Erat augue hendrerit leo, non facilisis felis nunc
+                        nec nisl. Vestibulum
+                        maximus libero felis, quis commodo quam volutpat a. Nullam a enim metus. Integer ac euismod
+                        urna, a tincidunt augue.
+                        Vivamus molestie finibus ante. Integer ac euismod urna, a tincidunt augue.
                         Vivamus molestie finibus ante.
                     </p>
                 </div>
@@ -88,13 +101,14 @@
             </section>
 
             <section id="services" class="section-container background-light">
-                <h4 class="section-title services-title">We offer a wide array of <span class="accent ">services</span></h4>
+                <h4 class="section-title services-title">We offer a wide array of <span class="accent ">services</span>
+                </h4>
                 <div class="services-grid">
                     <div class="services-card">
                         <div class="card-img-container">
                             <img class="card-img" src="img/icon_proofreading.png" alt="">
                         </div>
-                            <div class="card-caption">
+                        <div class="card-caption">
                             <span class="accent">Proofreading</span><br>
                             <span class="card-caption-description">Pellentesque at fringilla maximus tristique. </span>
                         </div>
@@ -103,9 +117,9 @@
                         <div class="card-img-container">
                             <img class="card-img" src="img/icon_translation.png" alt="">
                         </div>
-                            <div class="card-caption">
+                        <div class="card-caption">
                             <span class="accent">Translations</span><br>
-                            <span class="card-caption-description"> Donec lacinia libero vitae scelerisque 
+                            <span class="card-caption-description"> Donec lacinia libero vitae scelerisque
                                 tempor</span>
                         </div>
                     </div>
@@ -113,7 +127,7 @@
                         <div class="card-img-container">
                             <img class="card-img" src="img/icon_copy.png" alt="">
                         </div>
-                            <div class="card-caption">
+                        <div class="card-caption">
                             <span class="accent">Copyediting</span><br>
                             <span class="card-caption-description">Nulla sit amet accumsan nist pellentesque sed</span>
                         </div>
@@ -122,7 +136,7 @@
                         <div class="card-img-container">
                             <img class="card-img" src="img/icon_copy.png" alt="">
                         </div>
-                            <div class="card-caption">
+                        <div class="card-caption">
                             <span class="accent">Style correction</span><br>
                             <span class="card-caption-description">In nec finibus enim, nec dapibus augue</span>
                         </div>
@@ -131,16 +145,17 @@
                         <div class="card-img-container">
                             <img class="card-img" src="img/icon_proofreading.png" alt="">
                         </div>
-                            <div class="card-caption">
+                        <div class="card-caption">
                             <span class="accent">Proofing</span><br>
-                            <span class="card-caption-description">Etiam ullamcorper ornare libero, vel commodo purus.</span>
+                            <span class="card-caption-description">Etiam ullamcorper ornare libero, vel commodo
+                                purus.</span>
                         </div>
                     </div>
                     <div class="services-card">
                         <div class="card-img-container">
                             <img class="card-img" src="img/icon_ghost.png" alt="">
                         </div>
-                            <div class="card-caption">
+                        <div class="card-caption">
                             <span class="accent">Ghostwriting</span><br>
                             <span class="card-caption-description">In nec finibus enim, nec dapibus augue</span>
                         </div>
@@ -150,9 +165,13 @@
 
             <section id="projects" class="section-container background-dark">
                 <h4 class="section-title projects-title">Our Projects</h4>
-                <p class="projects-description1">Our 10 years of experience in the industry have given us ample experience. Donec quis turpis vestibulum, posuere nibh sit amet, fringilla elit. In blandit vehicula nulla, a gravida risus viverra id. Nulla risus nibh, tempus et commodo vel, vestibulum ac augue. Donec interdum quis nunc in viverra. 
+                <p class="projects-description1">Our 10 years of experience in the industry have given us ample
+                    experience. Donec quis turpis vestibulum, posuere nibh sit amet, fringilla elit. In blandit vehicula
+                    nulla, a gravida risus viverra id. Nulla risus nibh, tempus et commodo vel, vestibulum ac augue.
+                    Donec interdum quis nunc in viverra.
                     Pellentesque pretium eros vitae risus maximus consequat. </p>
-                <p class="projects-description2">Here you can explore some of our more representative projects to date:</p>
+                <p class="projects-description2">Here you can explore some of our more representative projects to date:
+                </p>
                 <div>
                     <div class="projects-btn-grid">
                         <button class="btn-light btn-projects">All</button>
@@ -165,63 +184,86 @@
                     <div class="project project-1">
                         <img src="img/projects/project01.jpg" alt="" class="project-img">
                         <div class="project-info">
-                            <span class="plus-icon"><p>+</p></span><br>
-                            <p class="project-title">Mauris non tortor dignissim mauris a, mollis miLorem ipsum lorem </p><br>
+                            <span class="plus-icon">
+                                <p>+</p>
+                            </span><br>
+                            <p class="project-title">Mauris non tortor dignissim mauris a, mollis miLorem ipsum lorem
+                            </p><br>
                             <p class="project-description">Etiam est justo, mollis quis sapien vitae,</p>
                         </div>
                     </div>
                     <div class="project project-2">
                         <img src="img/projects/project02.jpg" alt="" class="project-img">
                         <div class="project-info">
-                            <span class="plus-icon"><p>+</p></span><br>
-                            <p class="project-title">Mauris non tortor dignissim mauris a, mollis miLorem ipsum lorem </p><br>
+                            <span class="plus-icon">
+                                <p>+</p>
+                            </span><br>
+                            <p class="project-title">Mauris non tortor dignissim mauris a, mollis miLorem ipsum lorem
+                            </p><br>
                             <p class="project-description">Etiam est justo, mollis quis sapien vitae,</p>
                         </div>
                     </div>
                     <div class="project project-3">
                         <img src="img/projects/project03.jpg" alt="" class="project-img">
                         <div class="project-info">
-                            <span class="plus-icon"><p>+</p></span><br>
-                            <p class="project-title">Sed egestas urna ac augue euismod lobortis. Mauris non tortor condimentum, dignissim mauris a, mollis miLorem ipsum lorem ipsup</p><br>
+                            <span class="plus-icon">
+                                <p>+</p>
+                            </span><br>
+                            <p class="project-title">Sed egestas urna ac augue euismod lobortis. Mauris non tortor
+                                condimentum, dignissim mauris a, mollis miLorem ipsum lorem ipsup</p><br>
                             <p class="project-description">Etiam est justo, mollis quis sapien vitae.</p>
                         </div>
                     </div>
                     <div class="project project-4">
                         <img src="img/projects/project04.jpg" alt="" class="project-img">
                         <div class="project-info">
-                            <span class="plus-icon"><p>+</p></span><br>
-                            <p class="project-title">Mauris non tortor dignissim mauris a, mollis miLorem ipsum lorem </p><br>
+                            <span class="plus-icon">
+                                <p>+</p>
+                            </span><br>
+                            <p class="project-title">Mauris non tortor dignissim mauris a, mollis miLorem ipsum lorem
+                            </p><br>
                             <p class="project-description">Etiam est justo, mollis quis sapien vitae,</p>
                         </div>
                     </div>
                     <div class="project project-5">
                         <img src="img/projects/project05.jpg" alt="" class="project-img">
                         <div class="project-info">
-                            <span class="plus-icon"><p>+</p></span><br>
-                            <p class="project-title">Mauris non tortor dignissim mauris a, mollis miLorem ipsum lorem </p><br>
+                            <span class="plus-icon">
+                                <p>+</p>
+                            </span><br>
+                            <p class="project-title">Mauris non tortor dignissim mauris a, mollis miLorem ipsum lorem
+                            </p><br>
                             <p class="project-description">Etiam est justo, mollis quis sapien vitae,</p>
                         </div>
                     </div>
                     <div class="project project-6">
                         <img src="img/projects/project06.jpg" alt="" class="project-img">
                         <div class="project-info">
-                            <span class="plus-icon"><p>+</p></span><br>
-                            <p class="project-title">Sed egestas urna ac augue euismod lobortis. Mauris non tortor condimentum, dignissim mauris a, mollis miLorem ipsum lorem ipsum</p><br>
+                            <span class="plus-icon">
+                                <p>+</p>
+                            </span><br>
+                            <p class="project-title">Sed egestas urna ac augue euismod lobortis. Mauris non tortor
+                                condimentum, dignissim mauris a, mollis miLorem ipsum lorem ipsum</p><br>
                             <p class="project-description">Etiam est justo, mollis quis sapien vitae,</p>
                         </div>
                     </div>
                     <div class="project project-7">
                         <img src="img/projects/project07.jpg" alt="" class="project-img">
                         <div class="project-info">
-                            <span class="plus-icon"><p>+</p></span><br>
-                            <p class="project-title">Sed egestas urna ac augue euismod lobortis. Lorem ipsum lorem </p><br>
+                            <span class="plus-icon">
+                                <p>+</p>
+                            </span><br>
+                            <p class="project-title">Sed egestas urna ac augue euismod lobortis. Lorem ipsum lorem </p>
+                            <br>
                             <p class="project-description">Etiam est justo, mollis quis sapien vitae,</p>
                         </div>
                     </div>
                     <div class="project project-8">
                         <img src="img/projects/project08.jpg" alt="" class="project-img">
                         <div class="project-info">
-                            <span class="plus-icon"><p>+</p></span><br>
+                            <span class="plus-icon">
+                                <p>+</p>
+                            </span><br>
                             <p class="project-title">Lorem ipsum Sed egestas urna ac augue</p><br>
                             <p class="project-description">Etiam est justo, mollis quis sapien vitae,</p>
                         </div>
@@ -232,7 +274,8 @@
             <section id="ourteam" class="section-container background-light">
                 <div class="team-header">
                     <h5 class="section-title team-title accent">Our Team of Editorial <span>Experts</span></h5>
-                    <p class="cursive team-description">Biblos' team members have ample experience accross all ares of editorial process.
+                    <p class="cursive team-description">Biblos' team members have ample experience accross all ares of
+                        editorial process.
                         We can guarantee in-depth and detailed results in a timely manner
                     </p>
                 </div>
@@ -242,9 +285,12 @@
                             <figure class="worker-photo-container">
                                 <img src="img/team01.jpg" class="photo-team-member" alt="a happy worker">
                                 <div class="social-info-worker social-container-flex">
-                                    <div class="member-social-element"><img src="img/social/icon01.png" class="social-img"alt=""></div>
-                                    <div class="member-social-element"><img src="img/social/icon02.png" class="social-img"alt=""></div>
-                                    <div class="member-social-element"><img src="img/social/icon03.png" class="social-img"alt=""></div>
+                                    <div class="member-social-element"><img src="img/social/icon01.png"
+                                            class="social-img" alt=""></div>
+                                    <div class="member-social-element"><img src="img/social/icon02.png"
+                                            class="social-img" alt=""></div>
+                                    <div class="member-social-element"><img src="img/social/icon03.png"
+                                            class="social-img" alt=""></div>
                                 </div>
                             </figure>
                             <figcaption class="team-member-caption">
@@ -257,9 +303,12 @@
                             <figure class="worker-photo-container">
                                 <img src="img/team02.jpg" class="photo-team-member" alt="a happy worker">
                                 <div class="social-info-worker social-container-flex">
-                                    <div class="member-social-element"><img src="img/social/icon01.png" class="social-img"alt=""></div>
-                                    <div class="member-social-element"><img src="img/social/icon02.png" class="social-img"alt=""></div>
-                                    <div class="member-social-element"><img src="img/social/icon03.png" class="social-img"alt=""></div>
+                                    <div class="member-social-element"><img src="img/social/icon01.png"
+                                            class="social-img" alt=""></div>
+                                    <div class="member-social-element"><img src="img/social/icon02.png"
+                                            class="social-img" alt=""></div>
+                                    <div class="member-social-element"><img src="img/social/icon03.png"
+                                            class="social-img" alt=""></div>
                                 </div>
                             </figure>
                             <figcaption class="team-member-caption">
@@ -272,9 +321,12 @@
                             <figure class="worker-photo-container">
                                 <img src="img/team03.jpg" class="photo-team-member" alt="a happy worker">
                                 <div class="social-info-worker social-container-flex">
-                                    <div class="member-social-element"><img src="img/social/icon01.png" class="social-img"alt=""></div>
-                                    <div class="member-social-element"><img src="img/social/icon02.png" class="social-img"alt=""></div>
-                                    <div class="member-social-element"><img src="img/social/icon03.png" class="social-img"alt=""></div>
+                                    <div class="member-social-element"><img src="img/social/icon01.png"
+                                            class="social-img" alt=""></div>
+                                    <div class="member-social-element"><img src="img/social/icon02.png"
+                                            class="social-img" alt=""></div>
+                                    <div class="member-social-element"><img src="img/social/icon03.png"
+                                            class="social-img" alt=""></div>
                                 </div>
                             </figure>
                             <figcaption class="team-member-caption">
@@ -287,9 +339,12 @@
                             <figure class="worker-photo-container">
                                 <img src="img/team04.jpg" class="photo-team-member" alt="a happy worker">
                                 <div class="social-info-worker social-container-flex">
-                                    <div class="member-social-element"><img src="img/social/icon01.png" class="social-img"alt=""></div>
-                                    <div class="member-social-element"><img src="img/social/icon02.png" class="social-img"alt=""></div>
-                                    <div class="member-social-element"><img src="img/social/icon03.png" class="social-img"alt=""></div>
+                                    <div class="member-social-element"><img src="img/social/icon01.png"
+                                            class="social-img" alt=""></div>
+                                    <div class="member-social-element"><img src="img/social/icon02.png"
+                                            class="social-img" alt=""></div>
+                                    <div class="member-social-element"><img src="img/social/icon03.png"
+                                            class="social-img" alt=""></div>
                                 </div>
                             </figure>
                             <figcaption class="team-member-caption">
@@ -304,43 +359,50 @@
 
             <section id="contact" class="section-container">
                 <h4 class="section-title contact-title">Contact</h4>
-                <p class="contact-description"> Get in touch and one of our expert advisers will get back to you within 24 hours</p>
+                <p class="contact-description"> Get in touch and one of our expert advisers will get back to you within
+                    24 hours</p>
                 <div class="contact-form-container">
-                <form class="form-grid">
-                    <label for="name"></label>
-                    <input type="text" id="name" placeholder="Name" class="form-grid-element grid-element1 form-text-input"/>
-                    <label for="email"></label>
-                    <input type="text" id="email" placeholder="Email" class="form-grid-element grid-element2 form-text-input"/>
-                    <label for="phone"></label>
-                    <input type="text" id="phone" placeholder="Phone number" class="form-grid-element grid-element3 form-text-input"/>
-                    <label for="service"></label>
-                    <select id="service" name="service" placeholder="Select service" class="form-grid-element grid-element4 form-text-input">
-                        <option value="Select">--Select a service--</option>
-                        <option value="Proofreading">Proofreading</option>
-                        <option value="Translation">Translation</option>
-                        <option value="Copyediting">Copyediting</option>
-                        <option value="Style-correction">Style correction</option>
-                        <option value="Proofing">Proofing</option>
-                        <option value="Ghostwriting">Ghostwriting</option>
-                        <option value="Other">Other</option>
-                    </select>
-                    <label for="query"></label>
-                    <textarea id="query" name="query" placeholder="Tell us what you need" class="form-grid-element grid-element5"></textarea>
-                    <button type="button" onclick="alert('Query submitted')" class="grid-element6 btn-light">Submit</button >
-                </form>
+                    <form class="form-grid">
+                        <label for="name"></label>
+                        <input type="text" id="name" placeholder="Name"
+                            class="form-grid-element grid-element1 form-text-input" />
+                        <label for="email"></label>
+                        <input type="text" id="email" placeholder="Email"
+                            class="form-grid-element grid-element2 form-text-input" />
+                        <label for="phone"></label>
+                        <input type="text" id="phone" placeholder="Phone number"
+                            class="form-grid-element grid-element3 form-text-input" />
+                        <label for="service"></label>
+                        <select id="service" name="service" placeholder="Select service"
+                            class="form-grid-element grid-element4 form-text-input">
+                            <option value="Select">--Select a service--</option>
+                            <option value="Proofreading">Proofreading</option>
+                            <option value="Translation">Translation</option>
+                            <option value="Copyediting">Copyediting</option>
+                            <option value="Style-correction">Style correction</option>
+                            <option value="Proofing">Proofing</option>
+                            <option value="Ghostwriting">Ghostwriting</option>
+                            <option value="Other">Other</option>
+                        </select>
+                        <label for="query"></label>
+                        <textarea id="query" name="query" placeholder="Tell us what you need"
+                            class="form-grid-element grid-element5"></textarea>
+                        <button type="button" onclick="alert('Query submitted')"
+                            class="grid-element6 btn-light">Submit</button>
+                    </form>
                 </div>
             </section>
 
             <footer>
                 <div class="footer-flex-container">
                     <div class="footer-flex-item">
-                        <div >
+                        <div>
                             <h2 class="footer-title">Biblos</h2>
                             <h3 class="footer-subtitle">Editorial Services</h3>
                         </div>
-                        <p class="footer-para">Proin pharetra neque sit amet nibh iaculis, vel fermentum dui ornare. 
+                        <p class="footer-para">Proin pharetra neque sit amet nibh iaculis, vel fermentum dui ornare.
                             Phasellus aliquam nunc at tortor efficitur, in fringilla tortor congue.
-                             Etiam finibus mollis nisl et blandit. Sed in semper mi.
+                            Etiam finibus mollis nisl et blandit. Sed in semper mi.
                         </p>
                         <p class="middle-footer-para">
                             <span class="footer-uppercase">Business addresss</span><br>
@@ -348,7 +410,7 @@
                         </p>
                         <div class="footer-flex-container2">
                             <p><span class="footer-uppercase">Bussiness Phone</span><br>
-                            <span class="footer-contact-info">+01-2345-6789</span>
+                                <span class="footer-contact-info">+01-2345-6789</span>
                             </p>
                             <p><span class="footer-uppercase">Bussiness E-mail</span><br>
                                 <span class="footer-contact-info">biblos@biblos.com</span>
@@ -357,14 +419,15 @@
                     </div>
                     <div class="footer-flex-item">
                         <h5 class="hours-title">Opening hours</h5>
-                        <h6 class="hours-subtitle">Walk-ins are welcome. Arrange a meeting to avoid excessive waiting times</h6>
+                        <h6 class="hours-subtitle">Walk-ins are welcome. Arrange a meeting to avoid excessive waiting
+                            times</h6>
                         <div class="hours-container">
                             <div>
-                                <p class="day">Mon:</p> 
-                                <p class="day">Tue:</p> 
-                                <p class="day">Wed:</p> 
-                                <p class="day">Thur:</p> 
-                                <p class="day">Fri:</p> 
+                                <p class="day">Mon:</p>
+                                <p class="day">Tue:</p>
+                                <p class="day">Wed:</p>
+                                <p class="day">Thur:</p>
+                                <p class="day">Fri:</p>
                             </div>
                             <div>
                                 <p class="bold hours">09-17</p>
@@ -376,11 +439,12 @@
                         </div>
                     </div>
                 </div>
-                <h5 class="credit">Website by: 
-                    <a class="link-footer" target="_blank" href="https://ubiquitous-frangipane-e02795.netlify.app/">Alfonso Anaya</a>
+                <h5 class="credit">Website by:
+                    <a class="link-footer" target="_blank"
+                        href="https://ubiquitous-frangipane-e02795.netlify.app/">Alfonso Anaya</a>
                 </h5>
             </footer>
-        <!-- End of main container -->
+            <!-- End of main container -->
         </div>
     </body>
 </hmtl>
