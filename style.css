@@ -146,7 +146,8 @@ body {
 #services,
 #projects,
 #ourteam,
-#contact {
+#contact
+footer {
     scroll-margin-top: 1.75em;
     position: relative;
 }
@@ -228,7 +229,8 @@ body {
     #services,
     #projects,
     #ourteam,
-    #contact {
+    #contact,
+    footer {
         top: -46.875px;
     }
 
