@@ -39,7 +39,7 @@ html {
 ===================================*/
 
 body {
-    color: var(--color-font-primary)
+    color: var(--color-font-primary);
 }
 
 .cursive {
@@ -165,7 +165,7 @@ footer {
 .header-sticky {
     background-color: var(--color-background);
     visibility: visible;
-    padding: .2em 0;
+    
     background-color: var(--color-background);
     position: relative;
     top: 0;
@@ -196,6 +196,7 @@ footer {
     margin: 0;
     padding: 0;
     opacity: .88;
+    background-color: var(--color-accent);
 }
 
 .header-sticky:hover {
@@ -223,37 +224,6 @@ footer {
     color: var(--color-accent2);
 }
 
-@media (min-width: 750px) {
-    #home,
-    #about,
-    #services,
-    #projects,
-    #ourteam,
-    #contact,
-    footer {
-        top: -46.875px;
-    }
-
-    .header-sticky {
-        visibility: visible;
-        position: sticky;
-        z-index: 1000;
-    }
-
-    .nav {
-        position: static;
-        transform: translateX(0%);
-    }
-
-    .nav-list {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        opacity: .88;
-    }
-}
-
 .nav-toggle {
     padding: .5em;
     background: transparent;
@@ -262,7 +232,8 @@ footer {
     position: absolute;
     right: 1em;
     top: 1em;
-    z-index: 1000;
+    z-index: 1002;
+
 }
 
 .nav-open .nav {
@@ -293,7 +264,7 @@ footer {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-    background: linear-gradient(to right, var(--color-accent), var(--clr-accent2));
+    background: var(--color-font-primary);
     width: 2em;
     height: 3px;
     border-radius: 1em;
@@ -317,6 +288,37 @@ footer {
     bottom: 6px;
 }
 
+@media (min-width: 750px) {
+    #home,
+    #about,
+    #services,
+    #projects,
+    #ourteam,
+    #contact,
+    footer {
+        top: -40.375px;
+    }
+
+    .header-sticky {
+        visibility: visible;
+        position: sticky;
+        z-index: 1000;
+    }
+
+    .nav {
+        position: static;
+        transform: translateX(0%);
+    }
+
+    .nav-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        opacity: .88;
+    }
+}
+
 /* = = =  HOME  = = = */
 
 .title {
@@ -338,7 +340,7 @@ footer {
 .home {
     height: 100vh;
     min-height: 650px;
-
+    top: 3em;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
