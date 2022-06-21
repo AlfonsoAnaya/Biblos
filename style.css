@@ -146,10 +146,9 @@ body {
 #services,
 #projects,
 #ourteam,
-#contact
+#contact,
 footer {
-    scroll-margin-top: 1.75em;
-    position: relative;
+    scroll-margin-top: 4.875px;
 }
 
 .background-dark {
@@ -241,7 +240,7 @@ footer {
 }
 
 .nav-open .nav-toggle {
-    position: fixed;
+    position: absolute;
 }
 
 .nav-open .hamburger {
@@ -340,7 +339,7 @@ footer {
 .home {
     height: 100vh;
     min-height: 650px;
-    top: 2em;
+    
     display: flex;
     justify-content: space-between;
     flex-direction: column;
