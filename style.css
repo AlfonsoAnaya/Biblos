@@ -231,8 +231,7 @@ footer {
     position: fixed;
     right: 1em;
     top: 1em;
-    z-index: 1002;
-
+    visibility: visible;
 }
 
 .nav-open .nav {
@@ -240,7 +239,7 @@ footer {
 }
 
 .nav-open .nav-toggle {
-    position: absolute;
+    /*position: absolute;*/
 }
 
 .nav-open .hamburger {
@@ -304,6 +303,10 @@ footer {
         z-index: 1000;
     }
 
+    .nav-toggle {
+        visibility: hidden;
+    }
+
     .nav {
         position: static;
         transform: translateX(0%);
@@ -339,7 +342,6 @@ footer {
 .home {
     height: 100vh;
     min-height: 650px;
-    
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -351,9 +353,9 @@ footer {
     background-position-x: -12em;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 750px) {
     .title {
-        padding-top: 4em;
+        padding-top: 3em;
     }
 
     .tagline {
@@ -364,6 +366,7 @@ footer {
     }
 
     .home {
+        height: calc(100vh - 40.875px);
         gap: 0rem;
         background-size: cover;
         background-position-y: center;
@@ -372,9 +375,7 @@ footer {
 }
 
 @media (min-width: 1000px) {
-    .title {
-        padding-top: 5em;
-    }
+
 
     .tagline {
         max-width: 55%;
