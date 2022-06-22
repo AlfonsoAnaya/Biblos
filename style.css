@@ -194,7 +194,7 @@ footer {
     align-items: center;
     margin: 0;
     padding: 0;
-    background-color: var(--color-accent);
+    background-color: var(--color-accent2);
 }
 
 .header-sticky:hover {
@@ -207,19 +207,22 @@ footer {
     text-transform: uppercase;
     font-size: 1.15em;
     margin: .5em 1em;
+    font-size: 1.5em;
+    font-weight: 600;
 }
 
 .link-nav {
     text-decoration: underline wavy 1px rgb(4, 16, 20, 0);
-    color: var(--color-font-primary);
+    
+    color: var(--color-background);
     transition: text-decoration-color 300ms;
     text-underline-offset: .15em;
 }
 
 .link-nav:hover,
 .link-nav:active {
-    text-decoration-color: var(--color-accent2);
-    color: var(--color-accent2);
+    color: var(--color-font-primary);
+    color: var(--color-font-primary);
 }
 
 .nav-toggle {
