@@ -182,7 +182,7 @@ footer {
     right: 0;
     z-index: 100;
     transform: translateX(100%);
-    transition: transform 250ms cubic-bezier(.5, 0, .5, 1);
+    transition: transform 250ms cubic-bezier(.5, 0, .5, 1);    
 }
 
 .nav__list {
@@ -194,7 +194,6 @@ footer {
     align-items: center;
     margin: 0;
     padding: 0;
-    opacity: .88;
     background-color: var(--color-accent);
 }
 
@@ -312,12 +311,13 @@ footer {
         transform: translateX(0%);
     }
 
-    .nav-list {
+    .nav__list {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
         opacity: .88;
+        background-color: var(--color-background)
     }
 }
 
