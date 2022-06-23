@@ -148,7 +148,7 @@ body {
 #ourteam,
 #contact,
 footer {
-    scroll-margin-top: 4.875px;
+    scroll-margin-top: 40.875px;
 }
 
 .background-dark {
@@ -221,6 +221,7 @@ footer {
 .link-nav:hover,
 .link-nav:active {
     color: var(--color-font-primary);
+    text-decoration-color: var(--color-font-primary);
 }
 
 .nav-toggle {
@@ -329,6 +330,7 @@ footer {
     .link-nav:hover,
     .link-nav:active {
         color: var(--color-accent2);
+        text-decoration-color: var(--color-accent2);
     }
 }
 
@@ -376,8 +378,8 @@ footer {
         padding-bottom: 6.5em;
     }
 
-    .home {
-        height: calc(100vh - 40.875px);
+    #home {
+        height: calc(100vh - 52px);
         gap: 0rem;
         background-size: cover;
         background-position-y: center;
