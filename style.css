@@ -171,7 +171,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    opacity: .88;
+    opacity: 1;
 }
 
 .nav {
@@ -213,7 +213,6 @@ footer {
 
 .link-nav {
     text-decoration: underline wavy 1px rgb(4, 16, 20, 0);
-    
     color: var(--color-background);
     transition: text-decoration-color 300ms;
     text-underline-offset: .15em;
@@ -221,7 +220,6 @@ footer {
 
 .link-nav:hover,
 .link-nav:active {
-    color: var(--color-font-primary);
     color: var(--color-font-primary);
 }
 
@@ -303,6 +301,7 @@ footer {
         visibility: visible;
         position: sticky;
         z-index: 1000;
+        opacity: .88;
     }
 
     .nav-toggle {
@@ -321,6 +320,15 @@ footer {
         justify-content: center;
         opacity: .88;
         background-color: var(--color-background)
+    }
+
+    .link-nav {
+        color: var(--color-font-primary);
+        font-size: .83em;
+    }
+    .link-nav:hover,
+    .link-nav:active {
+        color: var(--color-accent2);
     }
 }
 
