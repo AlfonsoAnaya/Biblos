@@ -206,7 +206,7 @@ footer {
     font-family: var(--font-subtitle);
     text-transform: uppercase;
     font-size: 1.15em;
-    margin: .5em 1em;
+    margin: .5em .75em;
     font-size: 1.5em;
     font-weight: 600;
 }
@@ -233,6 +233,7 @@ footer {
     right: 1em;
     top: 1em;
     visibility: visible;
+    z-index: 2000;
 }
 
 .nav-open .nav {
@@ -245,10 +246,17 @@ footer {
 
 .nav-open .hamburger {
     transform: rotate(.625turn);
+    background: var(--color-background);
 }
 
 .nav-open .hamburger::before {
     transform: rotate(90deg) translateX(-6px);
+    background: var(--color-background);
+}
+
+.nav-open .hamburger::before:hover,
+.nav-open .hamburger:hover {
+    background: --color-font-primary;
 }
 
 .nav-open .hamburger::after {
