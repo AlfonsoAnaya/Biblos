@@ -240,10 +240,6 @@ footer {
     transform: translateX(0);
 }
 
-.nav-open .nav-toggle {
-    /*position: absolute;*/
-}
-
 .nav-open .hamburger {
     transform: rotate(.625turn);
     background: var(--color-background);
