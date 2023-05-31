@@ -9,7 +9,7 @@
 
 :root {
     --color-background: #EFF4F7;
-    --color-font-primary: #041018e8;
+    --color-font-primary: #0a0a04e8;
     --color-accent: #407391;
     /* rgb(64, 115, 145) */
     --color-accent2: rgb(209, 169, 84);
@@ -252,7 +252,7 @@ footer {
 
 .nav-open .hamburger::before:hover,
 .nav-open .hamburger:hover {
-    background: --color-font-primary;
+    background: var(--color-font-primary);
 }
 
 .nav-open .hamburger::after {
@@ -1201,7 +1201,7 @@ p {
 /* = = =  FOOTER  = = = */
 
 footer {
-    background-color: rgba(0, 0, 5, 0.895);
+    background-color: var(--color-font-primary);
     color: var(--color-background);
 }
 
